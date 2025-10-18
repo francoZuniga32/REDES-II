@@ -1,0 +1,16 @@
+#ifconfig eth0  10.0.20.1/24 hw ether AA:BB:CC:00:01:05 up
+ifconfig eth1  100.60.60.1/24 hw ether AA:BB:CC:00:01:06 up
+
+
+openvpn --mktun --dev tap0 
+brctl addbr br0 
+brctl addif br0 eth0
+brctl addif br0 tap0
+ifconfig tap0 0.0.0.0 promisc up
+ifconfig eth0 0.0.0.0 promisc up
+
+ifconfig br0 10.0.20.1/24
+ 
+sleep 1
+route add default gw 100.60.60.2
+

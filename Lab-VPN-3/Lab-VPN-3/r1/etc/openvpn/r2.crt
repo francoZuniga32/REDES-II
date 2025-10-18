@@ -1,0 +1,96 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 3 (0x3)
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=AR, ST=NQ, L=Neuquen, O=UNC, OU=LabRII, CN=UNC CA/name=EasyRSA/emailAddress=root@localhost
+        Validity
+            Not Before: Sep 28 16:12:30 2016 GMT
+            Not After : Sep 26 16:12:30 2026 GMT
+        Subject: C=AR, ST=NQ, L=Neuquen, O=UNC, OU=LabRII, CN=r2/name=EasyRSA/emailAddress=root@localhost
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+            RSA Public Key: (2048 bit)
+                Modulus (2048 bit):
+                    00:9e:27:84:6e:8c:3b:87:ca:96:82:27:40:3b:d5:
+                    d8:2d:e6:40:c9:0d:53:65:62:6e:05:5e:b1:1a:43:
+                    76:9d:a2:4f:cf:8b:43:ea:4b:fc:08:c0:93:89:c0:
+                    ed:cb:70:bf:f4:48:b7:d3:32:94:91:e0:47:86:22:
+                    b6:4d:b2:59:04:db:93:8b:99:bf:d0:fe:02:00:7b:
+                    7c:17:06:24:ed:0b:51:d0:dc:41:b6:a6:e8:b7:67:
+                    55:d6:22:dc:ff:2b:7a:68:dc:7d:ab:9c:50:a9:1d:
+                    14:7c:12:95:93:74:f3:50:4a:8f:4e:cd:da:ee:d1:
+                    44:dd:5d:6b:8f:1d:58:2e:c9:ba:b9:21:45:4d:af:
+                    c2:9d:0a:bf:ad:12:25:57:f3:de:40:28:a7:79:c1:
+                    da:3e:e8:63:27:04:89:7a:62:ec:3a:c6:62:61:4d:
+                    f6:10:36:87:a2:e7:88:c3:a2:8c:89:70:0b:92:34:
+                    7c:c3:07:ed:59:73:1f:43:3d:87:60:05:0b:18:1f:
+                    09:e2:66:e3:aa:8c:48:46:f6:57:8e:59:43:93:12:
+                    e8:7c:08:7e:93:14:a2:82:cc:e1:24:3c:3e:7f:fa:
+                    a9:9e:e8:76:f2:ea:90:c4:18:0c:61:45:5a:2c:f6:
+                    ff:fc:ca:b9:a3:e9:c6:fb:22:74:41:0d:bb:e3:50:
+                    c8:57
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                Easy-RSA Generated Certificate
+            X509v3 Subject Key Identifier: 
+                87:45:DA:6E:C3:AF:94:AF:88:A8:FB:57:0D:24:3D:EB:B2:CB:98:AA
+            X509v3 Authority Key Identifier: 
+                keyid:9C:45:8D:4F:A5:ED:92:C1:97:72:FE:0B:99:ED:88:A8:54:88:99:AA
+                DirName:/C=AR/ST=NQ/L=Neuquen/O=UNC/OU=LabRII/CN=UNC CA/name=EasyRSA/emailAddress=root@localhost
+                serial:B1:55:0C:31:4F:AA:E8:7A
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+            X509v3 Subject Alternative Name: 
+                DNS:r2
+    Signature Algorithm: sha256WithRSAEncryption
+        b5:d5:7e:13:58:33:d6:e7:bb:37:89:7e:df:dd:9f:4e:97:58:
+        3d:a2:1f:57:e8:96:c6:e6:1a:83:ab:87:90:14:55:6d:d1:21:
+        31:ee:3b:7b:31:51:af:46:bd:13:0b:bf:0e:86:98:e2:e4:e7:
+        9d:ce:8a:ff:4c:78:45:77:3f:ad:77:eb:ea:6c:ee:5e:51:3a:
+        a1:05:5a:6f:7c:0b:e3:ee:3c:5b:70:eb:82:2e:2b:20:4d:00:
+        dd:ff:aa:c6:10:e8:f9:66:16:fe:c2:09:10:65:c8:30:1b:56:
+        8f:f1:b0:b0:cd:e0:79:58:9a:8f:54:f4:09:ad:e6:68:09:3e:
+        20:c6:7e:d4:70:5b:20:27:04:29:e4:f5:f2:4e:e5:54:5b:56:
+        79:89:ed:1d:d0:6b:b7:68:ca:74:65:22:48:09:66:ca:5e:da:
+        4d:ef:8f:9f:3d:9d:79:cc:f2:ab:73:2d:25:e9:a6:e8:5b:07:
+        98:60:97:d2:9d:0d:ea:ac:0c:a9:59:41:5d:48:b5:f2:47:cd:
+        85:5e:4b:d1:cf:e0:e2:3f:02:b0:d9:b7:81:02:29:6c:84:78:
+        55:1d:86:ef:83:be:f5:bf:10:14:84:6e:bd:a2:ad:fe:28:b3:
+        9d:30:ab:2a:b1:ac:3c:35:f7:9b:c1:ca:e8:88:db:f8:01:62:
+        c3:71:82:b6
+-----BEGIN CERTIFICATE-----
+MIIE6DCCA9CgAwIBAgIBAzANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCQVIx
+CzAJBgNVBAgTAk5RMRAwDgYDVQQHEwdOZXVxdWVuMQwwCgYDVQQKEwNVTkMxDzAN
+BgNVBAsTBkxhYlJJSTEPMA0GA1UEAxMGVU5DIENBMRAwDgYDVQQpEwdFYXN5UlNB
+MR0wGwYJKoZIhvcNAQkBFg5yb290QGxvY2FsaG9zdDAeFw0xNjA5MjgxNjEyMzBa
+Fw0yNjA5MjYxNjEyMzBaMIGJMQswCQYDVQQGEwJBUjELMAkGA1UECBMCTlExEDAO
+BgNVBAcTB05ldXF1ZW4xDDAKBgNVBAoTA1VOQzEPMA0GA1UECxMGTGFiUklJMQsw
+CQYDVQQDEwJyMjEQMA4GA1UEKRMHRWFzeVJTQTEdMBsGCSqGSIb3DQEJARYOcm9v
+dEBsb2NhbGhvc3QwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCeJ4Ru
+jDuHypaCJ0A71dgt5kDJDVNlYm4FXrEaQ3adok/Pi0PqS/wIwJOJwO3LcL/0SLfT
+MpSR4EeGIrZNslkE25OLmb/Q/gIAe3wXBiTtC1HQ3EG2pui3Z1XWItz/K3po3H2r
+nFCpHRR8EpWTdPNQSo9Ozdru0UTdXWuPHVguybq5IUVNr8KdCr+tEiVX895AKKd5
+wdo+6GMnBIl6Yuw6xmJhTfYQNoei54jDooyJcAuSNHzDB+1Zcx9DPYdgBQsYHwni
+ZuOqjEhG9leOWUOTEuh8CH6TFKKCzOEkPD5/+qme6Hby6pDEGAxhRVos9v/8yrmj
+6cb7InRBDbvjUMhXAgMBAAGjggFTMIIBTzAJBgNVHRMEAjAAMC0GCWCGSAGG+EIB
+DQQgFh5FYXN5LVJTQSBHZW5lcmF0ZWQgQ2VydGlmaWNhdGUwHQYDVR0OBBYEFIdF
+2m7Dr5SviKj7Vw0kPeuyy5iqMIHCBgNVHSMEgbowgbeAFJxFjU+l7ZLBl3L+C5nt
+iKhUiJmqoYGTpIGQMIGNMQswCQYDVQQGEwJBUjELMAkGA1UECBMCTlExEDAOBgNV
+BAcTB05ldXF1ZW4xDDAKBgNVBAoTA1VOQzEPMA0GA1UECxMGTGFiUklJMQ8wDQYD
+VQQDEwZVTkMgQ0ExEDAOBgNVBCkTB0Vhc3lSU0ExHTAbBgkqhkiG9w0BCQEWDnJv
+b3RAbG9jYWxob3N0ggkAsVUMMU+q6HowEwYDVR0lBAwwCgYIKwYBBQUHAwIwCwYD
+VR0PBAQDAgeAMA0GA1UdEQQGMASCAnIyMA0GCSqGSIb3DQEBCwUAA4IBAQC11X4T
+WDPW57s3iX7f3Z9Ol1g9oh9X6JbG5hqDq4eQFFVt0SEx7jt7MVGvRr0TC78Ohpji
+5Oedzor/THhFdz+td+vqbO5eUTqhBVpvfAvj7jxbcOuCLisgTQDd/6rGEOj5Zhb+
+wgkQZcgwG1aP8bCwzeB5WJqPVPQJreZoCT4gxn7UcFsgJwQp5PXyTuVUW1Z5ie0d
+0Gu3aMp0ZSJICWbKXtpN74+fPZ15zPKrcy0l6aboWweYYJfSnQ3qrAypWUFdSLXy
+R82FXkvRz+DiPwKw2beBAilshHhVHYbvg771vxAUhG69oq3+KLOdMKsqsaw8Nfeb
+wcroiNv4AWLDcYK2
+-----END CERTIFICATE-----

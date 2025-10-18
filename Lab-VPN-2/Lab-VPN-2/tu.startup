@@ -1,0 +1,4 @@
+ifconfig eth1  10.0.20.1/24 hw ether AA:BB:CC:00:01:05 up
+ifconfig eth0  100.60.60.1/24 hw ether AA:BB:CC:00:01:06 up
+route add default gw 100.60.60.2
+echo 1 > /proc/sys/net/ipv4/ip_forward 

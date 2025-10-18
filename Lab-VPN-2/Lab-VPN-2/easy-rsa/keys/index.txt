@@ -1,0 +1,2 @@
+V	351010213946Z		01	unknown	/C=AR/ST=NQN/L=Neuquen Capital/O=FAI/OU=FAIREDES/CN=El/name=EasyRSA/emailAddress=franco.ojeda@est.fi.uncoma.edu.ar
+V	351010214004Z		02	unknown	/C=AR/ST=NQN/L=Neuquen Capital/O=FAI/OU=FAIREDES/CN=Tu/name=EasyRSA/emailAddress=franco.ojeda@est.fi.uncoma.edu.ar

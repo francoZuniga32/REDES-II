@@ -1,0 +1,8 @@
+PING pc4 (10.0.0.3) 56(84) bytes of data.
+64 bytes from pc4 (10.0.0.3): icmp_seq=1 ttl=64 time=10.3 ms
+64 bytes from pc4 (10.0.0.3): icmp_seq=2 ttl=64 time=0.927 ms
+64 bytes from pc4 (10.0.0.3): icmp_seq=3 ttl=64 time=0.854 ms
+
+--- pc4 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2006ms
+rtt min/avg/max/mdev = 0.854/4.059/10.397/4.481 ms

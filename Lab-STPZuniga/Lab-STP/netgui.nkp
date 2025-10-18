@@ -1,0 +1,33 @@
+<nodes>
+position(331.0,233.0); NKSwitch("s9")
+position(565.0,238.0); NKSwitch("s1")
+position(807.0,233.0); NKSwitch("s10")
+position(559.0,384.0); NKSwitch("s7")
+position(557.0,92.0); NKSwitch("s2")
+<\nodes>
+<connections>
+<link>
+Connect("s1")
+To("s7")
+<\link>
+<link>
+Connect("s1")
+To("s9")
+<\link>
+<link>
+Connect("s9")
+To("s2")
+<\link>
+<link>
+Connect("s2")
+To("s10")
+<\link>
+<link>
+Connect("s10")
+To("s1")
+<\link>
+<link>
+Connect("s10")
+To("s7")
+<\link>
+<\connections>

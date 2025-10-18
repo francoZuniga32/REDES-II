@@ -1,0 +1,12 @@
+ifconfig eth0 up
+ifconfig eth0 hw ether 00:00:00:00:00:0A
+
+vconfig add eth0 10
+vconfig add eth0 20
+
+ifconfig eth0.10 up
+ifconfig eth0.20 up
+
+ip addr add 10.0.0.1/24 dev eth0.10
+ip addr add 192.168.0.1/24 dev eth0.20
+

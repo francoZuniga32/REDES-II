@@ -1,0 +1,35 @@
+<nodes>
+position(242.0,387.0); NKCompaq("pc1")
+position(431.0,399.0); NKCompaq("pc2")
+position(619.0,402.0); NKCompaq("pc3")
+position(425.0,223.0); NKSwitch("s1")
+position(638.0,228.0); NKSwitch("s2")
+position(516.0,87.0); NKRouter("r1")
+position(776.0,389.0); NKCompaq("pc4")
+<\nodes>
+<connections>
+<link>
+Connect("s1")
+To("s2")
+<\link>
+<link>
+Connect("pc1")
+To("s1")
+<\link>
+<link>
+Connect("pc2")
+To("s1")
+<\link>
+<link>
+Connect("pc4")
+To("s2")
+<\link>
+<link>
+Connect("pc3")
+To("s2")
+<\link>
+<link>
+Connect("s1")
+To("r1")
+<\link>
+<\connections>

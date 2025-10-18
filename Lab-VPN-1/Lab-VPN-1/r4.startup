@@ -1,0 +1,7 @@
+ifconfig eth0  100.50.50.2/24 hw ether AA:BB:CC:00:01:08 up
+ifconfig eth1  100.60.60.2/24 hw ether AA:BB:CC:00:01:07 up
+ifconfig eth2  100.80.80.2/24 hw ether AA:BB:CC:00:01:07 up
+
+
+
+

@@ -1,0 +1,34 @@
+ifconfig eth0 up
+ifconfig eth0 hw ether 00:00:00:00:02:00
+
+ifconfig eth1 up
+ifconfig eth1 hw ether 00:00:00:00:02:01
+
+ifconfig eth2 up
+ifconfig eth2 hw ether 00:00:00:00:02:02
+
+
+vconfig add eth0 10
+vconfig add eth0 20
+
+ifconfig eth0.10 up
+ifconfig eth0.20 up
+
+
+brctl addbr vlan10
+brctl addbr vlan20
+
+ifconfig vlan10 up
+brctl addif vlan10 eth0.10
+brctl addif vlan10 eth1
+
+
+
+ifconfig vlan20 up
+brctl addif vlan20 eth0.20
+brctl addif vlan20 eth2
+
+
+
+
+

@@ -1,0 +1,7 @@
+ifconfig eth0  10.0.30.20/24 hw ether AA:BB:CC:00:01:03 up
+route add default gw 10.0.30.1
+
+
+
+
+
