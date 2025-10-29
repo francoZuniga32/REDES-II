@@ -1,0 +1,33 @@
+<nodes>
+position(761.0,249.0); NKRouter("h2")
+position(353.0,249.0); NKRouter("h1")
+position(536.0,222.0); NKHub("hub1")
+position(427.0,71.0); NKSwitch("s")
+position(749.0,83.0); NKRouter("h3")
+<\nodes>
+<connections>
+<link>
+Connect("s")
+To("h1")
+<\link>
+<link>
+Connect("s")
+To("h2")
+<\link>
+<link>
+Connect("h1")
+To("hub1")
+<\link>
+<link>
+Connect("h2")
+To("hub1")
+<\link>
+<link>
+Connect("s")
+To("hub1")
+<\link>
+<link>
+Connect("s")
+To("h3")
+<\link>
+<\connections>

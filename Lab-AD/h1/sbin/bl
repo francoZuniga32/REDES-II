@@ -1,0 +1,4 @@
+#!/bin/bash
+# Script para ver el log de bonding
+cat /proc/net/bonding/bond0
+

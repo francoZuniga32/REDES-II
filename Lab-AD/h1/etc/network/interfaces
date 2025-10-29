@@ -1,0 +1,41 @@
+# Used by ifup(8) and ifdown(8). See the interfaces(5) manpage or
+# /usr/share/doc/ifupdown/examples for more information.
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+
+# Define slaves   
+auto eth0
+iface eth0 inet manual
+    bond-master bond0
+    bond-primary eth0 
+#
+auto eth1
+iface eth1 inet manual
+    bond-master bond0
+    
+#
+## Define master
+auto bond0
+iface bond0 inet static
+    bond-slaves none
+    bond-mode active-backup 
+    bond-miimon 100
+    bond-downdelay 200
+    bond-updelay 200
+    bond-fail-over-mac 1
+
+    address 10.0.0.11
+    netmask 255.255.255.0
+   network 10.0.0.0
+  gateway 10.0.0.10
+
+
+#    bond-arp-interval 1000
+#    bond-arp-validate all
+#    bond-arp-ip-target 10.0.0.13
+  
+
+

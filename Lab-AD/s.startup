@@ -1,0 +1,20 @@
+echo -e '\e[1;32mConfiguring s\e[0m'
+echo 0 > /proc/sys/net/ipv4/ip_forward
+ifconfig eth0 up
+ifconfig eth1 up
+ifconfig eth2 up
+ifconfig eth3 up
+brctl addbr br0
+echo -e '     \e[1;32mAdding eth0 interface\e[0m'
+brctl addif br0 eth0
+echo -e '     \e[1;32mAdding eth1 interface\e[0m'
+brctl addif br0 eth1
+echo -e '     \e[1;32mAdding eth2 interface\e[0m'
+brctl addif br0 eth2
+echo -e '     \e[1;32mAdding eth3 interface\e[0m'
+brctl addif br0 eth3
+
+ifconfig br0 up
+echo -e '\e[1;32mSwitch br0 is configured\e[0m'
+
+
